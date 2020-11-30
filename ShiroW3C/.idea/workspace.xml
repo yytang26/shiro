@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc3be41e-0559-4afd-a0c2-b4c3c2770411" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/ProgrammaerApplication/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l031OVk6FLLpU9FB0UcU5LM6hA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/百度云文件/org.slf4j.nop.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20344828" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\action\shiro\ShiroW3C\src\main\resources" />
+      <recent name="D:\java\action\shiro\ShiroW3C\src\main\java" />
+      <recent name="D:\java\action\shiro\ShiroW3C\src\main\java\com\tyy\LoginLogOut" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AuthenticatorTest.testAllSuccessfulStrategyWithSuccess">
+    <configuration name="AuthenticatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShiroW3C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyy.chapter02.realm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyy.chapter02" />
+      <option name="MAIN_CLASS_NAME" value="com.tyy.chapter02.AuthenticatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticatorTest.testAllSuccessfulStrategyWithSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShiroW3C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyy.chapter02.realm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyy.chapter02" />
+      <option name="MAIN_CLASS_NAME" value="com.tyy.chapter02.AuthenticatorTest" />
+      <option name="METHOD_NAME" value="testAllSuccessfulStrategyWithSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginLogoutTest.testCustomMultiRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShiroW3C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyy.chapter02.realm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyy.chapter02" />
+      <option name="MAIN_CLASS_NAME" value="com.tyy.chapter02.LoginLogoutTest" />
+      <option name="METHOD_NAME" value="testCustomMultiRealm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginLogoutTest.testCustomRealm1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShiroW3C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyy.chapter02.realm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyy.chapter02" />
+      <option name="MAIN_CLASS_NAME" value="com.tyy.chapter02.LoginLogoutTest" />
+      <option name="METHOD_NAME" value="testCustomRealm1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginLogoutTest.testJDBCRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShiroW3C" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyy.chapter02.realm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tyy.chapter02" />
+      <option name="MAIN_CLASS_NAME" value="com.tyy.chapter02.LoginLogoutTest" />
+      <option name="METHOD_NAME" value="testJDBCRealm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AuthenticatorTest.testAllSuccessfulStrategyWithSuccess" />
+        <item itemvalue="JUnit.AuthenticatorTest" />
+        <item itemvalue="JUnit.LoginLogoutTest.testJDBCRealm" />
+        <item itemvalue="JUnit.LoginLogoutTest.testCustomMultiRealm" />
+        <item itemvalue="JUnit.LoginLogoutTest.testCustomRealm1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc3be41e-0559-4afd-a0c2-b4c3c2770411" name="Default Changelist" comment="" />
+      <created>1606719965558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606719965558</updated>
+      <workItem from="1606719969531" duration="187000" />
+      <workItem from="1606720175282" duration="11161000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="4" key="#Auto_Import" timestamp="1606733282815">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="4" key="#Auto_Import/0.0.1280.689@0.0.1280.689" timestamp="1606733282815" />
+    <state x="387" y="148" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606728333631">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="387" y="148" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1606728333631" />
+    <state x="344" y="86" key="FileChooserDialogImpl" timestamp="1606722151070">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="344" y="86" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1606722151070" />
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1606733052360">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606733052360" />
+    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1606733052360">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1606733052360" />
+    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1606733052360">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1606733052360" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1606733052360">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1606733052360" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1606725718079">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606725718079" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1606725718079">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1606725718079" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1606725718079">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1606725718079" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1606725718079">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1606725718079" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1606722155410">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1606722155410" />
+    <state x="325" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1606720178410">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="325" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1606720178410" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1606722811160">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1606722811160" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tyy/chapter02/LoginLogoutTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2-sources.jar!/org/apache/shiro/mgt/DefaultSecurityManager.java</url>
+          <line>267</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2-sources.jar!/org/apache/shiro/mgt/DefaultSecurityManager.java</url>
+          <line>268</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tyy/chapter02/realm/MyRealm1.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
