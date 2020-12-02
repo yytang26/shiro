@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc3be41e-0559-4afd-a0c2-b4c3c2770411" name="Default Changelist" comment="" />
+    <list default="true" id="dc3be41e-0559-4afd-a0c2-b4c3c2770411" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter03/AuthorizerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter03/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter03/PermissionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter03/RoleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter03/permission/BitAndWildPermissionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter03/permission/BitPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter03/permission/MyRolePermissionResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter03/realm/MyRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter04/ConfigurationCreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter04/IniMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter04/NonConfigurationCreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter04/authenticator/MyAuthenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chapter03/shiro-authorizer.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chapter03/shiro-jdbc-authorizer.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chapter03/shiro-permission.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chapter03/shiro-role.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chapter04/shiro-config-main.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chapter04/shiro-config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyy/chapter02/AuthenticatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter02/AuthenticatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyy/chapter02/LoginLogoutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyy/chapter02/LoginLogoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-authenticator-all-success.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chapter02/shiro-authenticator-all-success.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-jdbc-realm.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chapter02/shiro-jdbc-realm.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-multi-realm.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chapter02/shiro-multi-realm.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro-realm.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chapter02/shiro-realm.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shiro.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chapter02/shiro.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyy/chapter02/AuthenticatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyy/chapter02/AuthenticatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyy/chapter02/LoginLogoutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyy/chapter02/LoginLogoutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyy/chapter02/MyRealm1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyy/chapter02/MyRealm2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyy/chapter02/MyRealm3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-authenticator-all-success.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-jdbc-realm.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-multi-realm.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro-realm.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro.ini" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +48,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -27,6 +69,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1l031OVk6FLLpU9FB0UcU5LM6hA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,22 +77,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/百度云文件/org.slf4j.nop.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/chapter04" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20344828" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\action\shiro\ShiroW3C\src\main\resources\chapter04" />
+      <recent name="D:\java\action\shiro\ShiroW3C\src\main\java\com\tyy\chapter04" />
+      <recent name="D:\java\action\shiro\ShiroW3C\src\main\resources\chapter03" />
+      <recent name="D:\java\action\shiro\ShiroW3C\src\main\java\com\tyy\chapter03" />
+      <recent name="D:\java\action\shiro\ShiroW3C\src\main\java\com\tyy\chapter03\permission" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\action\shiro\ShiroW3C\src\main\resources\chapter02" />
       <recent name="D:\java\action\shiro\ShiroW3C\src\main\resources" />
       <recent name="D:\java\action\shiro\ShiroW3C\src\main\java" />
       <recent name="D:\java\action\shiro\ShiroW3C\src\main\java\com\tyy\LoginLogOut" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AuthenticatorTest.testAllSuccessfulStrategyWithSuccess">
+  <component name="RunManager" selected="JUnit.PermissionTest.testIsPermitted">
     <configuration name="AuthenticatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShiroW3C" />
       <extension name="coverage">
@@ -81,49 +133,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginLogoutTest.testCustomMultiRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginLogoutTest.testHelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShiroW3C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tyy.chapter02.realm.*" />
+          <option name="PATTERN" value="com.tyy.chapter02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tyy.chapter02" />
       <option name="MAIN_CLASS_NAME" value="com.tyy.chapter02.LoginLogoutTest" />
-      <option name="METHOD_NAME" value="testCustomMultiRealm" />
+      <option name="METHOD_NAME" value="testHelloWorld" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginLogoutTest.testCustomRealm1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PermissionTest.testIsPermitted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShiroW3C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tyy.chapter02.realm.*" />
+          <option name="PATTERN" value="com.tyy.chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tyy.chapter02" />
-      <option name="MAIN_CLASS_NAME" value="com.tyy.chapter02.LoginLogoutTest" />
-      <option name="METHOD_NAME" value="testCustomRealm1" />
+      <option name="PACKAGE_NAME" value="com.tyy.chapter03" />
+      <option name="MAIN_CLASS_NAME" value="com.tyy.chapter03.PermissionTest" />
+      <option name="METHOD_NAME" value="testIsPermitted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginLogoutTest.testJDBCRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoleTest.testHasRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShiroW3C" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tyy.chapter02.realm.*" />
+          <option name="PATTERN" value="com.tyy.chapter03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tyy.chapter02" />
-      <option name="MAIN_CLASS_NAME" value="com.tyy.chapter02.LoginLogoutTest" />
-      <option name="METHOD_NAME" value="testJDBCRealm" />
+      <option name="PACKAGE_NAME" value="com.tyy.chapter03" />
+      <option name="MAIN_CLASS_NAME" value="com.tyy.chapter03.RoleTest" />
+      <option name="METHOD_NAME" value="testHasRole" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PermissionTest.testIsPermitted" />
+        <item itemvalue="JUnit.RoleTest.testHasRole" />
+        <item itemvalue="JUnit.LoginLogoutTest.testHelloWorld" />
         <item itemvalue="JUnit.AuthenticatorTest.testAllSuccessfulStrategyWithSuccess" />
         <item itemvalue="JUnit.AuthenticatorTest" />
-        <item itemvalue="JUnit.LoginLogoutTest.testJDBCRealm" />
-        <item itemvalue="JUnit.LoginLogoutTest.testCustomMultiRealm" />
-        <item itemvalue="JUnit.LoginLogoutTest.testCustomRealm1" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +202,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606719965558</updated>
       <workItem from="1606719969531" duration="187000" />
-      <workItem from="1606720175282" duration="11161000" />
+      <workItem from="1606720175282" duration="13769000" />
+      <workItem from="1606737033715" duration="12000" />
+      <workItem from="1606805165125" duration="6470000" />
     </task>
     <servers />
   </component>
@@ -170,22 +224,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="344" y="86" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1606722151070" />
-    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1606733052360">
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1606811821386">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606733052360" />
-    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1606733052360">
+    <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606811821386" />
+    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1606811821386">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1606733052360" />
-    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1606733052360">
+    <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1606811821386" />
+    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1606811821386">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1606733052360" />
-    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1606733052360">
+    <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1606811821386" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1606811821386">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1606733052360" />
+    <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1606811821386" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1606725718079">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -210,6 +264,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="325" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1606720178410" />
+    <state x="28" y="40" key="new project wizard" timestamp="1606830700405">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="28" y="40" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1606830700405" />
     <state x="297" y="153" key="run.anything.popup" timestamp="1606722811160">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -237,6 +295,14 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/tyy/chapter02/realm/MyRealm1.java</url>
           <line>19</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tyy/chapter03/RoleTest.java</url>
+          <line>42</line>
+          <properties class="com.tyy.chapter03.RoleTest" method="testHasRole">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

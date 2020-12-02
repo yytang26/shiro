@@ -24,7 +24,7 @@ public class LoginLogoutTest {
     public void testHelloWorld() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory<SecurityManager> factory =
-                new IniSecurityManagerFactory("classpath:shiro.ini");
+                new IniSecurityManagerFactory("src/main/resources/chapter02/shiro.ini");
         //2、得到SecurityManager实例 并绑定给SecurityUtils
         SecurityManager securityManager = factory.getInstance();
         SecurityUtils.setSecurityManager(securityManager);
@@ -50,7 +50,7 @@ public class LoginLogoutTest {
     public void testCustomRealm1() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory<SecurityManager> factory =
-                new IniSecurityManagerFactory("classpath:shiro-realm.ini");
+                new IniSecurityManagerFactory("src/main/resources/chapter02/shiro-realm.ini");
         //2、得到SecurityManager实例 并绑定给SecurityUtils
         SecurityManager securityManager = factory.getInstance();
         SecurityUtils.setSecurityManager(securityManager);
@@ -73,7 +73,7 @@ public class LoginLogoutTest {
     public void testCustomMultiRealm() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory<org.apache.shiro.mgt.SecurityManager> factory =
-                new IniSecurityManagerFactory("classpath:shiro-multi-realm.ini");
+                new IniSecurityManagerFactory("src/main/resources/chapter02/shiro-multi-realm.ini");
 
         //2、得到SecurityManager实例 并绑定给SecurityUtils
         org.apache.shiro.mgt.SecurityManager securityManager = factory.getInstance();
@@ -100,7 +100,7 @@ public class LoginLogoutTest {
     public void testJDBCRealm() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory<org.apache.shiro.mgt.SecurityManager> factory =
-                new IniSecurityManagerFactory("classpath:shiro-jdbc-realm.ini");
+                new IniSecurityManagerFactory("src/main/resources/chapter02/shiro-jdbc-realm.ini");
 
         //2、得到SecurityManager实例 并绑定给SecurityUtils
         org.apache.shiro.mgt.SecurityManager securityManager = factory.getInstance();

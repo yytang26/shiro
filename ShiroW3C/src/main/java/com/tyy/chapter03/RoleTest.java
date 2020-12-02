@@ -1,22 +1,24 @@
-package com.tyy.chapter02;
+package com.tyy.chapter03;
 
-import junit.framework.Assert;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.config.IniSecurityManagerFactory;
 import org.apache.shiro.mgt.SecurityManager;
-import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.Factory;
+import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.Arrays;
 
 /**
  * @author:tyy
- * @date:2020/11/30
+ * @date:2020/12/1
  */
-public class AuthenticatorTest {
-    private void login(String configFile){
+public class RoleTest {
+    Subject subject;
+    private void login(String configFile,String userName,String password){
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory<SecurityManager> factory =
                 new IniSecurityManagerFactory(configFile);
@@ -26,8 +28,8 @@ public class AuthenticatorTest {
         SecurityUtils.setSecurityManager(securityManager);
 
         //3、得到Subject及创建用户名/密码身份验证Token（即用户身份/凭证）
-        Subject subject = SecurityUtils.getSubject();
-        UsernamePasswordToken token = new UsernamePasswordToken("zhang", "123");
+        subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token = new UsernamePasswordToken(userName, password);
 
         try {
             //4、登录，即身份验证
@@ -38,11 +40,16 @@ public class AuthenticatorTest {
         }
     }
     @Test
-    public void testAllSuccessfulStrategyWithSuccess(){
-        login("src/main/resources/chapter02/shiro-authenticator-all-success.ini");
-        Subject subject=SecurityUtils.getSubject();
-
-        PrincipalCollection principalCollection=subject.getPrincipals();
-        Assert.assertEquals(2,principalCollection.asList().size());
+    public void testHasRole(){
+        login("src/main/resources/chapter03/shiro-role.ini","zhang","123");
+        //判断拥有角色role1
+        Assert.assertTrue(subject.hasRole("role1"));
+        //判断拥有角色：role1 and role2
+        Assert.assertTrue(subject.hasAllRoles(Arrays.asList("role1", "role2")));
+        //判断拥有角色：role1 and role2 and !role3
+        boolean[] result = subject.hasRoles(Arrays.asList("role1", "role2", "role3"));
+        Assert.assertEquals(true, result[0]);
+        Assert.assertEquals(true, result[1]);
+        Assert.assertEquals(false, result[2]);
     }
 }
